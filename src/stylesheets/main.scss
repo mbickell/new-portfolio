@@ -1,15 +1,16 @@
-// abstracts
-
 // vendors
 
 // base
 @use "./base/reset";
+@use "./base/typography";
 
 // layout
 @use "./layout/header";
+@use "./layout/main";
+@use "./layout/contact";
 
 // components
-
+@use "./components/hero";
 //  pages
 
 //  themes

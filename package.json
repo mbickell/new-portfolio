@@ -4,6 +4,9 @@
     "sass": "^1.32.8"
   },
   "scripts": {
-    "compile": "sass stylesheets:dist"
+    "compile": "sass src/stylesheets:src/css",
+    "delete": "rm -rf ./dist/*",
+    "copy": "cp src/index.html src/css src/assets dist -r",
+    "predeploy": "yarn delete && yarn copy"
   }
 }
