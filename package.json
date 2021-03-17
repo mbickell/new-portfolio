@@ -9,8 +9,7 @@
     "delete": "rm -rf dist",
     "dist": "mkdir ./dist",
     "copy": "cp src/index.html src/css src/assets dist -r",
-    "predeploy": "yarn delete && yarn dist && yarn compile && yarn copy",
-    "pages": "gh-pages -d dist",
-    "deploy": "yarn predeploy && gh-pages -d dist"
+    "build": "yarn delete && yarn dist && yarn compile && yarn copy",
+    "deploy": "yarn build && gh-pages -d dist && rm -rf node_modules"
   }
 }
