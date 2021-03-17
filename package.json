@@ -1,0 +1,9 @@
+{
+  "name": "new-portfolio",
+  "devDependencies": {
+    "sass": "^1.32.8"
+  },
+  "scripts": {
+    "compile": "sass stylesheets:dist"
+  }
+}
