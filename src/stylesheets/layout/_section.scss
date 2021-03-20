@@ -1,0 +1,9 @@
+@use "../abstracts" as *;
+
+.section {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: $base-spacing;
+  padding: $base-spacing;
+}

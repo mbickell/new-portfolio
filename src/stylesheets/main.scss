@@ -7,10 +7,12 @@
 // layout
 @use "./layout/header";
 @use "./layout/main";
+@use "./layout/section";
 @use "./layout/contact";
 
 // components
 @use "./components/hero";
+@use "./components/portfolio";
 //  pages
 
 //  themes

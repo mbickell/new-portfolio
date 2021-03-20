@@ -1,0 +1,29 @@
+@use "../abstracts" as *;
+
+.portfolio-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  // justify-content: space-between;
+  border: 1px solid black;
+  gap: $base-spacing;
+  padding: $base-spacing;
+
+  &__img {
+    width: 100%;
+  }
+
+  &__text {
+    width: 90%;
+  }
+
+  &__title {
+    border-bottom: 1px solid black;
+  }
+
+  &__stack {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 1.5rem;
+  }
+}
