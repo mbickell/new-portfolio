@@ -10,3 +10,4 @@ dist/*
 *.css.map
 src/css
 node_modules
+scripts
