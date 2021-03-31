@@ -11,3 +11,4 @@ dist/*
 src/css
 node_modules
 scripts
+dist

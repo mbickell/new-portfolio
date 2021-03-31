@@ -1,4 +1,4 @@
-import portfolioData from "./data/portfolioData";
+import portfolioData from "./data/portfolioData.js";
 import IPortfolio from "./interfaces/portfolio.interface";
 
 const portfolioSection = document.querySelector(".portfolio");
