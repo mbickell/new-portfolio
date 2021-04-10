@@ -3,7 +3,7 @@ import IPortfolio from "./interfaces/portfolio.interface";
 
 const portfolioSection = document.querySelector(".portfolio");
 
-const createPortfolioItem = ({ title, description, image, stack }: IPortfolio): string => {
+const createPortfolioItem = ({ title, description, image, liveLink, githubLink, stack }: IPortfolio): string => {
   const skills = stack.map((skill) => {
     return `<span class="portfolio-wrapper__technology fab fa-${skill}"></span>`;
   });
@@ -17,10 +17,14 @@ const createPortfolioItem = ({ title, description, image, stack }: IPortfolio): 
         <p class="portfolio-wrapper__description">
           ${description}
         </p>
+        <div class="portfolio-wrapper__links">
+          <a class="portfolio-wrapper__link" href="${liveLink}" target="blank" ><span class="fab fa-github-square" ></span></a>
+          <a class="portfolio-wrapper__link" href="${githubLink}" target="blank" ><span class="fas fa-external-link-square-alt" ></span></a>
+        </div>
       </div>
 
       <div class="portfolio-wrapper__stack">
-        ${skills.join()}
+        ${skills.join("")}
       </div>
     </article>
   `;

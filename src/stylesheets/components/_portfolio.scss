@@ -20,10 +20,26 @@
     border-bottom: 1px solid black;
   }
 
+  &__links {
+    display: flex;
+    align-items: center;
+    gap: $base-spacing;
+  }
+
+  &__link {
+    font-size: 2rem;
+    color: black;
+
+    &:hover {
+      color: grey;
+    }
+  }
+
+
   &__stack {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
