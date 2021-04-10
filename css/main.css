@@ -85,11 +85,23 @@ main {
 .portfolio-wrapper__title {
   border-bottom: 1px solid black;
 }
+.portfolio-wrapper__links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.portfolio-wrapper__link {
+  font-size: 2rem;
+  color: black;
+}
+.portfolio-wrapper__link:hover {
+  color: grey;
+}
 .portfolio-wrapper__stack {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=main.css.map */
