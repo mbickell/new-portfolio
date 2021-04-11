@@ -35,7 +35,6 @@
     }
   }
 
-
   &__stack {
     display: flex;
     flex-direction: column;
@@ -43,5 +42,11 @@
     align-items: center;
     font-size: 2rem;
     width: 7%;
+  }
+
+  @media only screen and (min-width: $tablet-width) {
+    &__description {
+      font-size: 1.5rem;
+    }
   }
 }
