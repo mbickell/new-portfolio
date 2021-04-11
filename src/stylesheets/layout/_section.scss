@@ -6,4 +6,13 @@
   flex-direction: column;
   gap: $base-spacing;
   padding: $base-spacing;
+
+  @media only screen and (min-width: 768px) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    &__title {
+      grid-column: 1 / 3;
+    }
+  }
 }
