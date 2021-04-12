@@ -17,7 +17,6 @@
   optgroup,
   label {
     font-family: inherit;
-    font-size: 1.6rem;
     color: inherit;
     border: none;
     border-radius: 0;
@@ -32,7 +31,6 @@
   label,
   legend,
   ::placeholder {
-    font-size: 1.6rem;
     margin-bottom: 0.5rem;
     padding-top: 0.2rem;
     display: flex;
@@ -87,7 +85,6 @@
   [type="submit"],
   [type="reset"] {
     margin-bottom: 0;
-    font-size: 1.6rem;
   }
 
   select {
