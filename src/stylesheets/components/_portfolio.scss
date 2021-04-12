@@ -49,17 +49,16 @@
   }
 
   &__link {
-    font-size: 2rem;
+    font-size: 4rem;
     color: black;
-    height: min-content;
 
-    @media only screen and (min-width: $tablet-width) {
-      font-size: 2.25rem;
-    }
+    // @media only screen and (min-width: $tablet-width) {
+    //   font-size: 2.25rem;
+    // }
 
-    @media only screen and (min-width: $desktop-width) {
-      font-size: 2.5rem;
-    }
+    // @media only screen and (min-width: $desktop-width) {
+    //   font-size: 2.5rem;
+    // }
 
     &:hover {
       color: $highlight;
@@ -73,7 +72,7 @@
     gap: $base-spacing;
     align-items: center;
     flex-wrap: wrap;
-    font-size: 2rem;
+    font-size: 2.5rem;
     width: 10%;
     padding: $base-spacing;
   }
