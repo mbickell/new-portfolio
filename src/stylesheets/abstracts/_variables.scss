@@ -7,6 +7,7 @@ $light-font-background-transparent: transparentize($light-font-background, 0.6);
 $fancy-font: 'Spartan', sans-serif;
 $basic-font: 'Cabin', sans-serif;
 $highlight: #344323;
+$highlight-transparent: transparentize($highlight, 0.6);
 
 // spacing
 $base-spacing: 1rem;

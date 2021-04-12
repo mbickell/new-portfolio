@@ -17,13 +17,27 @@
     }
   }
 
-  &__img {
+  &__img-link {
+    position: relative;
     width: 100%;
+
+    &:hover:after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background-color: $highlight-transparent;
+      content: "";
+      width: 100%;
+      height: 100%;
+    }
 
     @media only screen and (min-width: $desktop-width) {
       width: 50%;
-      // height: 50%;
     }
+  }
+
+  &__img {
+    width: 100%;
   }
 
   &__content {
@@ -36,6 +50,7 @@
 
   &__text {
     width: 90%;
+    padding: $base-spacing;
   }
 
   &__title {
@@ -51,14 +66,6 @@
   &__link {
     font-size: 4rem;
     color: black;
-
-    // @media only screen and (min-width: $tablet-width) {
-    //   font-size: 2.25rem;
-    // }
-
-    // @media only screen and (min-width: $desktop-width) {
-    //   font-size: 2.5rem;
-    // }
 
     &:hover {
       color: $highlight;
