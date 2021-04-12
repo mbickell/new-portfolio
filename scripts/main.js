@@ -6,7 +6,9 @@ const createPortfolioItem = ({ title, description, image, liveLink, githubLink, 
     });
     return `
     <article class="portfolio-wrapper">
-      <img src="${image}" alt="${title}" class="portfolio-wrapper__img" />
+      <a href="${liveLink}" class="portfolio-wrapper__img-link">
+        <img src="${image}" alt="${title}" class="portfolio-wrapper__img" />
+      </a>
       <div class="portfolio-wrapper__content" />
         <div class="portfolio-wrapper__text">
           <h3 class="portfolio-wrapper__title">${title}</h3>
