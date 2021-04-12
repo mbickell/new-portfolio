@@ -2,9 +2,11 @@
 
 // fonts
 $light-font-color: #f5f5f5;
-$light-font-background: #80808070;
+$light-font-background: #808080;
+$light-font-background-transparent: transparentize($light-font-background, 0.6);
 $fancy-font: 'Spartan', sans-serif;
 $basic-font: 'Cabin', sans-serif;
+$highlight: #344323;
 
 // spacing
 $base-spacing: 1rem;

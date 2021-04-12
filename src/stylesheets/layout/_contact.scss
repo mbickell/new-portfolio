@@ -1,4 +1,16 @@
+@use "../abstracts" as *;
+
 .contact {
-  min-height: 50vh;
-  background-color: burlywood;
+  padding: $base-spacing;
+  background-color: $light-font-background;
+  display: flex;
+  flex-direction: column;
+  gap: $base-spacing;
+  height: 100vh;
+
+  @media only screen and (min-width: $tablet-width) {
+    flex-direction: row;
+    height: unset;
+    gap: $base-spacing * 1.5;
+  }
 }

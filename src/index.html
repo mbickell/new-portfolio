@@ -24,7 +24,30 @@
         <h2 class="section__title">Portfolio</h2>
       </section>
     </main>
-    <footer class="contact"></footer>
+    <footer class="contact">
+      <section class="details">
+        <a href="https://github.com/mbickell" target="blank" class="details__link">
+          <span class="details__icon fab fa-linkedin"></span>
+          GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/matthewbickell/" target="blank" class="details__link">
+          <span class="details__icon fab fa-github-square"></span>
+          LinkedIn
+        </a>
+      </section>
+      <form class="form" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mvodoylr" method="post">
+        <fieldset class="form-inputs">
+          <label for="full-name">Full Name</label>
+          <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+          <label for="email-address">Email Address</label>
+          <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+          <label for="message">Message</label>
+          <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
+          <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+        </fieldset>
+        <input type="submit" value="Submit">
+      </form>
+    </footer>
 
     <script src="./scripts/main.js" type="module"></script>
   </body>

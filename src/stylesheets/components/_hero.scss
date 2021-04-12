@@ -8,14 +8,14 @@
 
   &__name {
     font-family: $fancy-font;
-    background-color: $light-font-background;
+    background-color: $light-font-background-transparent;
     padding: $base-spacing;
     font-size: 3.2rem;
     margin-bottom: $base-spacing;
   }
 
   &__title {
-    background-color: $light-font-background;
+    background-color: $light-font-background-transparent;
     padding: $base-spacing;
     font-size: 2rem;
   }

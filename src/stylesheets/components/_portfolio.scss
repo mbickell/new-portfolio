@@ -3,7 +3,6 @@
 .portfolio-wrapper {
   display: flex;
   flex-wrap: wrap;
-  // justify-content: space-between;
   border: 1px solid black;
   gap: $base-spacing;
   padding: $base-spacing;
@@ -18,16 +17,17 @@
 
   &__text {
     width: 90%;
-    // display: flex;
-    // flex-direction: column;
-    // justify-content: space-between;
   }
 
   &__title {
     border-bottom: 1px solid black;
 
     @media only screen and (min-width: $tablet-width) {
-      font-size: 3rem;
+      font-size: 2.25rem;
+    }
+
+    @media only screen and (min-width: $desktop-width) {
+      font-size: 2.5rem;
     }
   }
 
@@ -43,11 +43,15 @@
     height: min-content;
 
     @media only screen and (min-width: $tablet-width) {
-      font-size: 3rem;
+      font-size: 2.25rem;
+    }
+
+    @media only screen and (min-width: $desktop-width) {
+      font-size: 2.5rem;
     }
 
     &:hover {
-      color: grey;
+      color: $highlight;
     }
   }
 
@@ -63,8 +67,12 @@
     padding: $base-spacing;
   }
 
-  @media only screen and (min-width: $tablet-width) {
-    &__description {
+  &__description {
+    @media only screen and (min-width: $tablet-width) {
+      font-size: 1.25rem;
+    }
+
+    @media only screen and (min-width: $desktop-width) {
       font-size: 1.5rem;
     }
   }
