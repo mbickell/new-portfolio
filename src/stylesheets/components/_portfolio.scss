@@ -2,17 +2,36 @@
 
 .portfolio-wrapper {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
+  // flex-wrap: wrap;
   border: 1px solid black;
   gap: $base-spacing;
   padding: $base-spacing;
 
+  @media only screen and (min-width: $desktop-width) {
+    align-items: center;
+    flex-direction: row;
+
+    &:nth-child(2n + 1) {
+      flex-direction: row-reverse;
+    }
+  }
+
   &__img {
     width: 100%;
+
+    @media only screen and (min-width: $desktop-width) {
+      width: 50%;
+      // height: 50%;
+    }
   }
 
   &__content {
     display: flex;
+
+    @media only screen and (min-width: $desktop-width) {
+      width: 50%;
+    }
   }
 
   &__text {
@@ -21,14 +40,6 @@
 
   &__title {
     border-bottom: 1px solid black;
-
-    @media only screen and (min-width: $tablet-width) {
-      font-size: 2.25rem;
-    }
-
-    @media only screen and (min-width: $desktop-width) {
-      font-size: 2.5rem;
-    }
   }
 
   &__links {
@@ -65,15 +76,5 @@
     font-size: 2rem;
     width: 10%;
     padding: $base-spacing;
-  }
-
-  &__description {
-    @media only screen and (min-width: $tablet-width) {
-      font-size: 1.25rem;
-    }
-
-    @media only screen and (min-width: $desktop-width) {
-      font-size: 1.5rem;
-    }
   }
 }

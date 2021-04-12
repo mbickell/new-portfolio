@@ -17,7 +17,7 @@
   optgroup,
   label {
     font-family: inherit;
-    font-size: 100%;
+    font-size: 1.6rem;
     color: inherit;
     border: none;
     border-radius: 0;
@@ -32,19 +32,11 @@
   label,
   legend,
   ::placeholder {
-    font-size: 1rem;
+    font-size: 1.6rem;
     margin-bottom: 0.5rem;
     padding-top: 0.2rem;
     display: flex;
     align-items: baseline;
-
-    @media only screen and (min-width: $tablet-width) {
-      font-size: 1.25rem;
-    }
-
-    @media only screen and (min-width: $desktop-width) {
-      font-size: 1.5rem;
-    }
   }
 
   label {
@@ -95,15 +87,7 @@
   [type="submit"],
   [type="reset"] {
     margin-bottom: 0;
-    font-size: 1rem;
-    
-    @media only screen and (min-width: $tablet-width) {
-      font-size: 1.25rem;
-    }
-
-    @media only screen and (min-width: $desktop-width) {
-      font-size: 1.5rem;
-    }
+    font-size: 1.6rem;
   }
 
   select {
