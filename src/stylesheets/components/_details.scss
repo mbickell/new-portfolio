@@ -1,7 +1,7 @@
 @use "../abstracts" as *;
 
 .details {
-  border: 1px solid black;
+  border: $border-light;
   width: 100%;
   height: 100%;
   display: flex;

@@ -4,7 +4,7 @@
   display: flex;
   flex-direction: column;
   // flex-wrap: wrap;
-  border: 1px solid black;
+  border: $border-dark;
   gap: $base-spacing;
   padding: $base-spacing;
 
@@ -54,7 +54,7 @@
   }
 
   &__title {
-    border-bottom: 1px solid black;
+    border-bottom: $border-dark;
   }
 
   &__links {
