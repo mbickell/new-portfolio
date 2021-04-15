@@ -23,11 +23,11 @@ const portfolioData = [
         ]
     },
     {
-        title: "Project",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptate ipsum perspiciatis. Neque commodiimpedit nam alias. Quos facere nulla iste quisquam excepturi esse natus, quia fugiat, non similiqueminima.",
-        image: "http://www.fillmurray.com/g/400/200",
-        liveLink: "https://www.google.com",
-        githubLink: "https://www.github.com",
+        title: "Random Group Generator",
+        description: "Built in vanilla JS. My first personal project which I have continued adding to as I have thought of better ways of presenting the information. Initially used as a way of avoiding the awkward small talk involved in finding people to work with while training on the bootcamp. It morphed over time as a tool to generate groups for my own intakes while I was a coach at a nology and now exists in its final state as way to randomise a list of custom names.",
+        image: "./assets/projects/random-group-generator.jpg",
+        liveLink: "https://groups.matthewbickell.co.uk/",
+        githubLink: "https://github.com/mbickell/random-group-generator",
         stack: [
             ["fab", "html5"],
             ["fab", "css3"],
