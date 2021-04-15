@@ -4,5 +4,5 @@ export default interface IPortfolio {
   image: string;
   liveLink: string;
   githubLink: string;
-  stack: string[];
+  stack: string[][];
 }

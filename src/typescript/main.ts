@@ -5,7 +5,7 @@ const portfolioSection = document.querySelector(".portfolio");
 
 const createPortfolioItem = ({ title, description, image, liveLink, githubLink, stack }: IPortfolio): string => {
   const skills = stack.map((skill) => {
-    return `<span class="portfolio-wrapper__technology fab fa-${skill}"></span>`;
+    return `<span class="portfolio-wrapper__technology ${skill[0]} fa-${skill[1]}"></span>`;
   });
 
   return `
