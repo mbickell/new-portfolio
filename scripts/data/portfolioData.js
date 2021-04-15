@@ -6,8 +6,20 @@ const portfolioData = [
         liveLink: "https://www.npmjs.com/package/mkrc",
         githubLink: "https://github.com/mbickell/mkrc",
         stack: [
-            "node",
-            "npm"
+            ["fab", "node"],
+            ["fab", "npm"]
+        ]
+    },
+    {
+        title: "Knitting App",
+        description: "Built with TypeScript React. My partner likes to knit and hadn't found a satisfying way of creating patterns apart from drawing them out, and I wanted a project to work on that would allow me to explore more interesting NoSQL database interactions, TypeScript React and email/password authentication. This is a WIP although all major features are present and the application is in just in need of some polish following user testing.",
+        image: "./assets/projects/knitting-app.jpg",
+        liveLink: "https://knitting.matthewbickell.co.uk/",
+        githubLink: "https://github.com/mbickell/knitting-app",
+        stack: [
+            ["fab", "react"],
+            ["fab", "sass"],
+            ["fas", "database"]
         ]
     },
     {
@@ -17,9 +29,9 @@ const portfolioData = [
         liveLink: "https://www.google.com",
         githubLink: "https://www.github.com",
         stack: [
-            "html5",
-            "css3",
-            "js"
+            ["fab", "html5"],
+            ["fab", "css3"],
+            ["fab", "js"]
         ]
     },
     {
@@ -29,9 +41,9 @@ const portfolioData = [
         liveLink: "https://www.google.com",
         githubLink: "https://www.github.com",
         stack: [
-            "html5",
-            "css3",
-            "js"
+            ["fab", "html5"],
+            ["fab", "css3"],
+            ["fab", "js"]
         ]
     },
     {
@@ -41,9 +53,9 @@ const portfolioData = [
         liveLink: "https://www.google.com",
         githubLink: "https://www.github.com",
         stack: [
-            "html5",
-            "css3",
-            "js"
+            ["fab", "html5"],
+            ["fab", "css3"],
+            ["fab", "js"]
         ]
     },
     {
@@ -53,22 +65,10 @@ const portfolioData = [
         liveLink: "https://www.google.com",
         githubLink: "https://www.github.com",
         stack: [
-            "html5",
-            "css3",
-            "js"
+            ["fab", "html5"],
+            ["fab", "css3"],
+            ["fab", "js"]
         ]
-    },
-    {
-        title: "Project",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptate ipsum perspiciatis. Neque commodiimpedit nam alias. Quos facere nulla iste quisquam excepturi esse natus, quia fugiat, non similiqueminima.",
-        image: "http://www.fillmurray.com/g/400/200",
-        liveLink: "https://www.google.com",
-        githubLink: "https://www.github.com",
-        stack: [
-            "html5",
-            "css3",
-            "js"
-        ]
-    },
+    }
 ];
 export default portfolioData;
