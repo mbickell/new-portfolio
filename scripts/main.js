@@ -6,7 +6,7 @@ const createPortfolioItem = ({ title, description, image, liveLink, githubLink, 
     });
     return `
     <article class="portfolio-wrapper">
-      <a href="${liveLink}" class="portfolio-wrapper__img-link">
+      <a href="${liveLink}" class="portfolio-wrapper__img-link" target="blank">
         <img src="${image}" alt="${title}" class="portfolio-wrapper__img" />
       </a>
       <div class="portfolio-wrapper__content" />
@@ -16,8 +16,8 @@ const createPortfolioItem = ({ title, description, image, liveLink, githubLink, 
             ${description}
           </p>
           <div class="portfolio-wrapper__links">
-            <a class="portfolio-wrapper__link" href="${liveLink}" target="blank" ><span class="fab fa-github-square" ></span></a>
-            <a class="portfolio-wrapper__link" href="${githubLink}" target="blank" ><span class="fas fa-external-link-square-alt" ></span></a>
+            <a class="portfolio-wrapper__link" href="${githubLink}" target="blank" ><span class="fab fa-github-square" ></span></a>
+            <a class="portfolio-wrapper__link" href="${liveLink}" target="blank" ><span class="fas fa-external-link-square-alt" ></span></a>
           </div>
         </div>
 

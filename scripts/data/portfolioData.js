@@ -35,11 +35,11 @@ const portfolioData = [
         ]
     },
     {
-        title: "Project",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptate ipsum perspiciatis. Neque commodiimpedit nam alias. Quos facere nulla iste quisquam excepturi esse natus, quia fugiat, non similiqueminima.",
-        image: "http://www.fillmurray.com/g/400/200",
-        liveLink: "https://www.google.com",
-        githubLink: "https://www.github.com",
+        title: "Hostile Aliens",
+        description: "A tech test built using vanilla JS. My first real attempt at object oriented programming, following the MVC model. The challenge of this tech test was to build a simple space invaders style game in <150 lines of code using OOP in a limited amouint of time (3-4 hours). My first pass involved just making the ships classes which I later refactored into a full MVC model.",
+        image: "./assets/projects/hostile-aliens.jpg",
+        liveLink: "https://mbickell.github.io/hostile-aliens/",
+        githubLink: "https://github.com/mbickell/hostile-aliens",
         stack: [
             ["fab", "html5"],
             ["fab", "css3"],
