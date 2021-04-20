@@ -42,3 +42,9 @@ const insertPortfolioSection = (portfolioData: IPortfolio[]): void => {
 };
 
 insertPortfolioSection(portfolioData);
+
+const portfolioSections: NodeListOf<HTMLElement> = document.querySelectorAll(".portfolio-wrapper");
+
+if (portfolioSections.length % 2) {
+  portfolioSections[portfolioSections.length - 1].style.gridColumn = "1 / -1";
+}

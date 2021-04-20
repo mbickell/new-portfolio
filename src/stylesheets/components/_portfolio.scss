@@ -8,6 +8,12 @@
   gap: $base-spacing;
   padding: $base-spacing;
 
+  // @media only screen and (min-width: $tablet-width) {
+  //   &:last-child {
+  //     grid-column: 1 / -1;
+  //   }
+  // }
+
   @media only screen and (min-width: $desktop-width) {
     align-items: center;
     flex-direction: row;

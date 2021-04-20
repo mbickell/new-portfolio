@@ -11,8 +11,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: $base-spacing * 1.5;
-  padding: $base-spacing * 1.5;
-
+    padding: $base-spacing * 1.5;
 
     &__title {
       grid-column: 1 / -1;
