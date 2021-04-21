@@ -36,3 +36,7 @@ const insertPortfolioSection = (portfolioData) => {
     });
 };
 insertPortfolioSection(portfolioData);
+const portfolioSections = document.querySelectorAll(".portfolio-wrapper");
+if (portfolioSections.length % 2) {
+    portfolioSections[0].style.gridColumn = "1 / -1";
+}

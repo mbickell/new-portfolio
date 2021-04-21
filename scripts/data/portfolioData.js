@@ -47,23 +47,11 @@ const portfolioData = [
         ]
     },
     {
-        title: "Project",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptate ipsum perspiciatis. Neque commodiimpedit nam alias. Quos facere nulla iste quisquam excepturi esse natus, quia fugiat, non similiqueminima.",
-        image: "http://www.fillmurray.com/g/400/200",
-        liveLink: "https://www.google.com",
-        githubLink: "https://www.github.com",
-        stack: [
-            ["fab", "html5"],
-            ["fab", "css3"],
-            ["fab", "js"]
-        ]
-    },
-    {
-        title: "Project",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque voluptate ipsum perspiciatis. Neque commodiimpedit nam alias. Quos facere nulla iste quisquam excepturi esse natus, quia fugiat, non similiqueminima.",
-        image: "http://www.fillmurray.com/g/400/200",
-        liveLink: "https://www.google.com",
-        githubLink: "https://www.github.com",
+        title: "Minesweeper Grid Generator",
+        description: "Built in vanilla JS. This was a limited time tech test (3-4 hours) to dynamically generate a 15x15 minsweeper grid with 30 mines. Having time left at the end I opted to add a simple front end to make the size and amount of mines variable. Following a functional style of programming made this simple enough as the functions were pure and easy to interact with.",
+        image: "./assets/projects/minesweeper.jpg",
+        liveLink: "https://minesweeper.matthewbickell.co.uk/",
+        githubLink: "https://github.com/mbickell/minesweeper",
         stack: [
             ["fab", "html5"],
             ["fab", "css3"],
