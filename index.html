@@ -17,6 +17,22 @@
     <header class="hero">
       <h1 class="hero__name">Matthew Bickell</h1>
       <p class="hero__title">Software Developer</p>
+      <p class="hero__src">
+        Photo by
+        <a
+          href="https://unsplash.com/@onecreativecat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Cat GB</a
+        >
+        on
+        <a
+          href="https://unsplash.com/@zombieduck/likes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Unsplash</a
+        >
+      </p>
     </header>
 
     <main>
@@ -27,27 +43,64 @@
 
     <footer class="contact">
       <section class="details">
-        <a href="https://github.com/mbickell" target="blank" class="details__link">
+        <a
+          href="https://github.com/mbickell"
+          target="blank"
+          class="details__link"
+        >
           <span class="details__icon fab fa-linkedin"></span>
           <span class="details__text">GitHub</span>
         </a>
-        <a href="https://www.linkedin.com/in/matthewbickell/" target="blank" class="details__link">
+        <a
+          href="https://www.linkedin.com/in/matthewbickell/"
+          target="blank"
+          class="details__link"
+        >
           <span class="details__icon fab fa-github-square"></span>
           <span class="details__text">LinkedIn</span>
         </a>
       </section>
 
-      <form class="form" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/mvodoylr" method="post">
+      <form
+        class="form"
+        name="simple-contact-form"
+        accept-charset="utf-8"
+        action="https://formspree.io/f/mvodoylr"
+        method="post"
+      >
         <fieldset class="form-inputs">
           <label for="full-name">Full Name</label>
-          <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+          <input
+            type="text"
+            name="name"
+            id="full-name"
+            placeholder="First and Last"
+            required=""
+          />
           <label for="email-address">Email Address</label>
-          <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+          <input
+            type="email"
+            name="_replyto"
+            id="email-address"
+            placeholder="email@domain.tld"
+            required=""
+          />
           <label for="message">Message</label>
-          <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
-          <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+          <textarea
+            rows="5"
+            name="message"
+            id="message"
+            placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus."
+            required=""
+          ></textarea>
+          <input
+            type="hidden"
+            name="_subject"
+            id="email-subject"
+            value="Contact Form Submission"
+          />
         </fieldset>
-        <input type="submit" value="Submit">
+        <input type="submit" value="Submit" />
       </form>
     </footer>
 
