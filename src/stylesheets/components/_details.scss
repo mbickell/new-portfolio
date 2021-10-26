@@ -24,6 +24,7 @@
     color: $light-font-color;
     gap: $base-spacing;
     text-decoration: none;
+    transition: ease-in 0.1s;
 
     &:hover {
       color: $highlight;

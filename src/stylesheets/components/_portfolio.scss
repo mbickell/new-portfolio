@@ -71,7 +71,8 @@
 
   &__link {
     font-size: 4rem;
-    color: black;
+    color: $dark-font-color;
+    transition: ease-in 0.1s;
 
     &:hover {
       color: $highlight;

@@ -1,0 +1,24 @@
+@use "../abstracts" as *;
+
+.btn {
+  color: $dark-font-color;
+  text-decoration: none;
+  font-size: 1.5rem;
+  padding: 1.5rem 4rem;
+  background-color: $highlight-transparent;
+  border: 2px solid $highlight;
+  transition: ease-in 0.1s;
+  cursor: pointer;
+
+  &:hover {
+    background-color: $dark-color-transparent;
+    border-color: $dark-color;
+    color: $light-font-color;
+  }
+}
+
+.secondary {
+  &:hover {
+    border-color: $highlight;
+  }
+}

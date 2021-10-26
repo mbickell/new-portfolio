@@ -5,13 +5,13 @@ $fancy-font: "Spartan", sans-serif;
 $basic-font: "Cabin", sans-serif;
 
 $light-font-color: #f5f5f5;
-$dark-font-color: #0f0f0f;
+$dark-font-color: #161616;
 
 $dark-color: #3b4e26;
-$highlight: #ecc46f;
+$highlight: #e9c880;
 
-$dark-color-transparent: transparentize($dark-color, 0.6);
-$highlight-transparent: transparentize($highlight, 0.6);
+$dark-color-transparent: #3b4e2699;
+$highlight-transparent: #e9c88099;
 
 $border-light: 2px solid $highlight;
 $border-dark: 2px solid $dark-color;
