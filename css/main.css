@@ -75,6 +75,10 @@ p {
   font-size: 1.6rem;
 }
 
+.display-none {
+  display: none;
+}
+
 .hero {
   min-height: 100vh;
   display: flex;
