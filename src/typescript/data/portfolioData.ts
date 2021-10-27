@@ -4,7 +4,7 @@ const portfolioData: IPortfolio[] = [
   {
     title: "mkrc",
     description:
-      "An NPM package made to generate components in React. Fueled by jealousy that there was no simple option to quickly create components containing boilerplate like in Angular, I made this save time while creating a new React project. The footprint is small, having only one dependency, and the operation isn't very fancy as it only generates components in a way that I prefer. It has been added to over time and now also supports Functional, Class based and TypeScript React.",
+      "An NPM package made to generate components in React. Fueled by jealousy that there was no simple option to quickly create components containing boilerplate like in Angular, I made this to save time while creating a new React project. The footprint is small, having only one dependency, and the operation isn't very fancy as it only generates components in a way that I prefer. It has been added to over time and now also supports Functional, Class based and TypeScript React.",
     image: "./assets/projects/mkrc.jpg",
     liveLink: "https://www.npmjs.com/package/mkrc",
     githubLink: "https://github.com/mbickell/mkrc",
@@ -41,16 +41,17 @@ const portfolioData: IPortfolio[] = [
   },
   {
     title: "Hostile Aliens",
-    description: "A tech test built using vanilla JS. My first real attempt at object oriented programming, following the MVC model. The challenge of this tech test was to build a simple space invaders style game in <150 lines of code using OOP in a limited amouint of time (3-4 hours). My first pass involved just making the ships classes which I later refactored into a full MVC model.",
+    description:
+      "A tech test built using vanilla JS. My first real attempt at object oriented programming, following the MVC model. The challenge of this tech test was to build a simple space invaders style game in <150 lines of code using OOP in a limited amouint of time (3-4 hours). My first pass involved just making the ships classes which I later refactored into a full MVC model.",
     image: "./assets/projects/hostile-aliens.jpg",
     liveLink: "https://mbickell.github.io/hostile-aliens/",
     githubLink: "https://github.com/mbickell/hostile-aliens",
     stack: [
-        ["fab", "html5"],
-        ["fab", "css3"],
-        ["fab", "js"]
+      ["fab", "html5"],
+      ["fab", "css3"],
+      ["fab", "js"]
     ]
-},
+  },
   {
     title: "Minesweeper Grid Generator",
     description:

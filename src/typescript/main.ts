@@ -3,7 +3,14 @@ import IPortfolio from "./interfaces/portfolio.interface";
 
 const portfolioSection = document.querySelector(".portfolio");
 
-const createPortfolioItem = ({ title, description, image, liveLink, githubLink, stack }: IPortfolio): string => {
+const createPortfolioItem = ({
+  title,
+  description,
+  image,
+  liveLink,
+  githubLink,
+  stack
+}: IPortfolio): string => {
   const skills = stack.map((skill) => {
     return `<span class="portfolio-wrapper__technology ${skill[0]} fa-${skill[1]}"></span>`;
   });
@@ -20,8 +27,8 @@ const createPortfolioItem = ({ title, description, image, liveLink, githubLink, 
             ${description}
           </p>
           <div class="portfolio-wrapper__links">
-            <a class="portfolio-wrapper__link" href="${githubLink}" target="blank" ><span class="fab fa-github-square" ></span></a>
-            <a class="portfolio-wrapper__link" href="${liveLink}" target="blank" ><span class="fas fa-external-link-square-alt" ></span></a>
+            <a class="portfolio-wrapper__link" href="${githubLink}" target="blank" aria-labelledby="gh-link-description" ><span class="fab fa-github-square" ></span></a>
+            <a class="portfolio-wrapper__link" href="${liveLink}" target="blank" aria-labelledby="website-link-description" ><span class="fas fa-external-link-square-alt" ></span></a>
           </div>
         </div>
 
@@ -43,7 +50,8 @@ const insertPortfolioSection = (portfolioData: IPortfolio[]): void => {
 
 insertPortfolioSection(portfolioData);
 
-const portfolioSections: NodeListOf<HTMLElement> = document.querySelectorAll(".portfolio-wrapper");
+const portfolioSections: NodeListOf<HTMLElement> =
+  document.querySelectorAll(".portfolio-wrapper");
 
 if (portfolioSections.length % 2) {
   portfolioSections[0].style.gridColumn = "1 / -1";
