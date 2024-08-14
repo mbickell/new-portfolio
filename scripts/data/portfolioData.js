@@ -1,14 +1,24 @@
 const portfolioData = [
     {
+        title: "CVEShield",
+        description: 'This is a project I helped develop while working for Kaze Consulting. This product aims to work as a "single-pane-of-glass" for information related to CVE\'s. It is a React frontend, served by a Supabase backend, and includes features like displaying information from the various databases which are updated daily. The information is collated from various sources related to vulnerability scanning. There is also a page for daily trending CVE topics (<a href="https://www.cveshield.com/dashboard" target="_blank" rel="noopener noreferrer">https://www.cveshield.com/dashboard</a>).',
+        image: "./assets/projects/cveshield.png",
+        liveLink: "https://www.cveshield.com/",
+        stack: [
+            ["fab", "react"],
+            ["fab", "sass"],
+        ],
+    },
+    {
         title: "mkrc",
-        description: "An NPM package made to generate components in React. Fueled by jealousy that there was no simple option to quickly create components containing boilerplate like in Angular, I made this to save time while creating a new React project. The footprint is small, having only one dependency, and the operation isn't very fancy as it only generates components in a way that I prefer. It has been added to over time and now also supports Functional, Class based and TypeScript React.",
+        description: "An NPM package made to generate components in React. Fuelled by jealousy that there was no simple option to quickly create components containing boilerplate like in Angular, I made this to save time while creating a new React project. The footprint is small, having only one dependency, and the operation isn't very fancy as it only generates components in a way that I prefer. It has been added to over time and now also supports Functional, Class based and TypeScript React.",
         image: "./assets/projects/mkrc.jpg",
         liveLink: "https://www.npmjs.com/package/mkrc",
         githubLink: "https://github.com/mbickell/mkrc",
         stack: [
             ["fab", "node"],
-            ["fab", "npm"]
-        ]
+            ["fab", "npm"],
+        ],
     },
     {
         title: "Knitting App",
@@ -19,8 +29,8 @@ const portfolioData = [
         stack: [
             ["fab", "react"],
             ["fab", "sass"],
-            ["fas", "database"]
-        ]
+            ["fas", "database"],
+        ],
     },
     {
         title: "Random Group Generator",
@@ -31,8 +41,8 @@ const portfolioData = [
         stack: [
             ["fab", "html5"],
             ["fab", "css3"],
-            ["fab", "js"]
-        ]
+            ["fab", "js"],
+        ],
     },
     {
         title: "Hostile Aliens",
@@ -43,20 +53,8 @@ const portfolioData = [
         stack: [
             ["fab", "html5"],
             ["fab", "css3"],
-            ["fab", "js"]
-        ]
+            ["fab", "js"],
+        ],
     },
-    {
-        title: "Minesweeper Grid Generator",
-        description: "Built in vanilla JS. This was a limited time tech test (3-4 hours) to dynamically generate a 15x15 minsweeper grid with 30 mines. Having time left at the end I opted to add a simple front end to make the size and amount of mines variable. Following a functional style of programming made this simple enough as the functions were pure and easy to interact with.",
-        image: "./assets/projects/minesweeper.jpg",
-        liveLink: "https://minesweeper.matthewbickell.co.uk/",
-        githubLink: "https://github.com/mbickell/minesweeper",
-        stack: [
-            ["fab", "html5"],
-            ["fab", "css3"],
-            ["fab", "js"]
-        ]
-    }
 ];
 export default portfolioData;
