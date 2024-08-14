@@ -11,7 +11,7 @@
     "compile:ts": "tsc",
     "delete": "rm -rf dist",
     "dist": "mkdir .\\dist",
-    "copy": "cp src/index.html src/css src/assets src/scripts dist -r",
+    "copy": "cp src/index.html src/css src/assets src/scripts src/CNAME dist -r",
     "build": "npm run delete && npm run dist && npm run compile:scss && npm run compile:ts && npm run copy",
     "deploy": "yarn build && gh-pages -d dist && rm -rf node_modules"
   }
