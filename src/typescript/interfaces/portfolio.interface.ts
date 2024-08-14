@@ -3,6 +3,6 @@ export default interface IPortfolio {
   description: string;
   image: string;
   liveLink: string;
-  githubLink: string;
+  githubLink?: string;
   stack: string[][];
 }

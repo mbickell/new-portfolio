@@ -9,7 +9,7 @@ const createPortfolioItem = ({
   image,
   liveLink,
   githubLink,
-  stack
+  stack,
 }: IPortfolio): string => {
   const skills = stack.map((skill) => {
     return `<span class="portfolio-wrapper__technology ${skill[0]} fa-${skill[1]}"></span>`;
@@ -27,8 +27,11 @@ const createPortfolioItem = ({
             ${description}
           </p>
           <div class="portfolio-wrapper__links">
-            <a class="portfolio-wrapper__link" href="${githubLink}" target="blank" aria-labelledby="gh-link-description" ><span class="fab fa-github-square" ></span></a>
-            <a class="portfolio-wrapper__link" href="${liveLink}" target="blank" aria-labelledby="website-link-description" ><span class="fas fa-external-link-square-alt" ></span></a>
+${
+  githubLink
+    ? `<a class="portfolio-wrapper__link" href="${githubLink}" target="blank" aria-labelledby="gh-link-description" ><span class="fab fa-github-square" ></span></a>`
+    : ""
+}            <a class="portfolio-wrapper__link" href="${liveLink}" target="blank" aria-labelledby="website-link-description" ><span class="fas fa-external-link-square-alt" ></span></a>
           </div>
         </div>
 
